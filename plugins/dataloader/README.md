@@ -1,5 +1,5 @@
 
-# CustomDataLoader Plugin for MNIST Classification
+# CustomDataLoader Plugin for loading image dataset saved in NumPy formats
 
 ## Overview
 

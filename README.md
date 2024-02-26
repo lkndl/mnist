@@ -29,6 +29,40 @@ The data is distributed in an IId fashion across two clients:
 3. Upload the sample data and plugins into the local container.
 4. Observe the logs and download the results.
 
+## Configuration File Overview
+
+The configuration file, typically named `config.yml`, plays a crucial role in setting up the federated learning environment for the MNIST classification project. It specifies the plugins to be used, along with their respective parameters, ensuring seamless integration and execution of the workflow.
+
+### Plugins
+
+- **Data Loader Plugin**: Manages the loading and preprocessing of the MNIST dataset across federated clients.
+- **Model Plugin**: Defines the neural network architecture used for digit classification.
+- **Optimizer Plugin**: Configures the federated learning optimizer, including learning rate and aggregation strategies.
+- **Aggregator Plugin**: Specifies the method for aggregating model updates from federated clients.
+
+### Parameters
+
+Each plugin requires specific parameters for its operation. These parameters include paths to data, model specifications (e.g., number of classes, input features), optimizer settings (e.g., learning rate, epochs), and aggregation rules (e.g., weighted average, secure aggregation techniques).
+
+### Example Configuration
+
+```yaml
+data_loader_plugin:
+  path: "/path/to/mnist/data"
+model_plugin:
+  n_classes: 10
+  in_features: 1
+optimizer_plugin:
+  learning_rate: 0.01
+  epochs: 10
+aggregator_plugin:
+  aggregation_method: "weighted_average"
+```
+
+This section provides guidance on configuring the system for federated learning tasks, ensuring that users can customize their setup according to their requirements.
+
+
+
 ### Requirements
 
 - Python 3.8

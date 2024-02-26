@@ -16,6 +16,7 @@ class CustomAggregator(FedOptimizer):
         self.stopping_criteria = []
 
     def aggregate(self, params, **kwargs):
+        self.iteration += 1
         n_splits = len(params[0])
         global_weights = [np.array(params[0][0][0], dtype='object') * 0] * n_splits
         total_n_samples = [0] * n_splits

@@ -12,6 +12,9 @@ The MNIST dataset is a handwritten digits that is widely used for training and t
 
 ![MNIST Sample](https://github.com/FeatureCloud/fc-mnist-workflow-template/blob/master/images/mnist.webp?raw=true)
 
+## Sample data
+Please find the sample data [here](https://github.com/FeatureCloud/fc-mnist-workflow-template/tree/master/sample%20data). The data is distributed in an IId fashion across two clients.
+
 ## Federated Learning on MNIST
 
 In this project, we apply federated learning to classify handwritten digits from the MNIST dataset. Instead of training a single model on a centralized dataset, federated learning allows models to be trained across multiple clients that each have a portion of the overall dataset. These local models are then aggregated into a global model, which can achieve high accuracy without any single entity ever having access to the full dataset.

@@ -11,7 +11,8 @@ The model consists of the following layers:
 
 - Two convolutional layers (`conv1` and `conv2`) for extracting features from the input images.
 - A dropout layer (`conv2_drop`) applied after the second convolutional layer to prevent overfitting.
-- Two fully connected layers (`fc1` and `fc2`) to perform classification based on the features extracted by the convolutional layers. The final layer outputs predictions for the `n_classes`, which is the number of digit classes (0-9) in the MNIST dataset.
+- A fully connected layers (`fc1`) to perform classification based on the features extracted by the 
+convolutional layers. The final layer outputs predictions for the `n_classes`, which is the number of digit classes (0-9) in the MNIST dataset.
 
 ## Requirements
 

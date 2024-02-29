@@ -10,7 +10,7 @@ This template enables the classification of the MNIST dataset using
 
 The MNIST dataset is a handwritten digits that is widely used for training and testing in the field of machine learning. It contains 70,000 images of handwritten digits from 0 to 9, each of which is a 28x28 pixel grayscale image. The dataset is divided into two parts: 60,000 training images and 10,000 testing images. This dataset is utilized for various tasks in image processing, especially for training and testing in the field of machine learning and computer vision.
 
-![MNIST Sample](https://github.com/FeatureCloud/fc-mnist-workflow-template/blob/master/images/mnist.webp?raw=true)
+![MNIST Sample](images/mnist.webp)
 
 ## Sample data
 Please find the sample data [here](https://github.com/FeatureCloud/fc-mnist-workflow-template/tree/master/sample%20data). The data is distributed in an IId fashion across two clients.
@@ -21,9 +21,9 @@ In this project, we apply federated learning to classify handwritten digits from
 
 The data is distributed in an IId fashion across two clients:
 
-![Train set](https://github.com/FeatureCloud/fc-mnist-workflow-template/blob/master/images/mnist_train-hist.png?raw=true)
+![Train set](images/mnist_train-hist.png)
 
-![Test set](https://github.com/FeatureCloud/fc-mnist-workflow-template/blob/master/images/mnist_test-hist.png?raw=true)
+![Test set](images/mnist_test-hist.png)
 
 ### Steps to Run the Project
 

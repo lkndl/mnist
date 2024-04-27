@@ -1,0 +1,8 @@
+featurecloud
+torchmetrics
+scikit-learn
+numpy
+torch
+torchvision
+pillow
+matplotlib
